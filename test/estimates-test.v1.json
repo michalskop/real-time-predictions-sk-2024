@@ -1,0 +1,106 @@
+{
+  "candidates": [
+    {
+      "id": 10,
+      "name": "Peter Pellegrini",
+      "given_name": "Peter",
+      "family_name": "Pellegrini",
+      "mean": 35.15,
+      "lo": 28.12,
+      "hi": 42.18
+    },
+    {
+      "id": 5,
+      "name": "Ivan Korčok",
+      "given_name": "Ivan",
+      "family_name": "Korčok",
+      "mean": 34.05,
+      "lo": 27.24,
+      "hi": 40.86
+    },
+    {
+      "id": 4,
+      "name": "Štefan Harabin",
+      "given_name": "Štefan",
+      "family_name": "Harabin",
+      "mean": 11.0,
+      "lo": 8.8,
+      "hi": 13.2
+    },
+    {
+      "id": 8,
+      "name": "Igor Matovič",
+      "given_name": "Igor",
+      "family_name": "Matovič",
+      "mean": 5.0,
+      "lo": 4.0,
+      "hi": 6.0
+    },
+    {
+      "id": 7,
+      "name": "Ján Kubiš",
+      "given_name": "Ján",
+      "family_name": "Kubiš",
+      "mean": 4.3,
+      "lo": 3.44,
+      "hi": 5.16
+    },
+    {
+      "id": 1,
+      "name": "Andrej Danko",
+      "given_name": "Andrej",
+      "family_name": "Danko",
+      "mean": 3.2,
+      "lo": 2.56,
+      "hi": 3.84
+    },
+    {
+      "id": 3,
+      "name": "Krisztián Forró",
+      "given_name": "Krisztián",
+      "family_name": "Forró",
+      "mean": 3.1,
+      "lo": 2.48,
+      "hi": 3.72
+    },
+    {
+      "id": 6,
+      "name": "Marian Kotleba",
+      "given_name": "Marian",
+      "family_name": "Kotleba",
+      "mean": 2.4,
+      "lo": 1.92,
+      "hi": 2.88
+    },
+    {
+      "id": 2,
+      "name": "Patrik Dubovský",
+      "given_name": "Patrik",
+      "family_name": "Dubovský",
+      "mean": 1.3,
+      "lo": 1.04,
+      "hi": 1.56
+    },
+    {
+      "id": 9,
+      "name": "Milan Náhlík",
+      "given_name": "Milan",
+      "family_name": "Náhlík",
+      "mean": 0.4,
+      "lo": 0.32,
+      "hi": 0.48
+    },
+    {
+      "id": 11,
+      "name": "Róbert Švec",
+      "given_name": "Róbert",
+      "family_name": "Švec",
+      "mean": 0.1,
+      "lo": 0.08,
+      "hi": 0.12
+    }
+  ],
+  "datetime": "2024-03-23T22:51:45",
+  "datetime_data": "2024-03-23T22:45:00",
+  "counted": 25.15
+}
