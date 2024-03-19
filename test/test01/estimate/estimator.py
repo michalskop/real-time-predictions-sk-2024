@@ -27,10 +27,18 @@ df['counted'] = counted
 error = 1 - counted / 100
 
 # fake mean
-for i in df.index:
-  df.at[i, 'mean'] = max(0, source.at[i, 'mean'] * (1 + error * random.uniform(-0.3, 0.3)))
-# adjust to 100%
-df['mean'] = df['mean'] / df['mean'].sum() * 100
+# for i in df.index:
+#   df.at[i, 'mean'] = max(0, source.at[i, 'mean'] * (1 + error * random.uniform(-0.3, 0.3)))
+# # adjust to 100%
+# df['mean'] = df['mean'] / df['mean'].sum() * 100
+
+# calculated mean from kan_okr, column P_HL_K, candidate_id is in column PC_HL
+m = kan_okr.groupby('PC_HL')['P_HL_K'].sum()
+# merge to df
+df = df.merge(m, left_on='id', right_index=True)
+df['mean'] = df['P_HL_K'] / df['P_HL_K'].sum() * 100
+# drop P_HL_K 
+df.drop(columns=['P_HL_K'], inplace=True)
 
 # fake 95% intervals
 df['lo'] = df['mean'] - 1.96 * df['mean'] / 100 * 10 * error
