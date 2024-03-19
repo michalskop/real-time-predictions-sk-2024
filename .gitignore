@@ -1,1 +1,4 @@
 .~lock*
+
+# everything in dev/
+dev/
