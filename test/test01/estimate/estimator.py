@@ -12,8 +12,8 @@ path = "/home/michal/dev/real-time-predictions-sk-2024/test/test01/estimate/"
 data_path = "../download/downloaded/"
 
 # read data
-kan_okr = pd.read_csv(path + data_path + "hlasy_okr.csv", sep="|")
-sv_okr = pd.read_csv(path + data_path + "sv_okr.csv", sep="|")
+kan_okr = pd.read_csv(path + data_path + "prez2024_med_kan_okr.csv", sep="|")
+sv_okr = pd.read_csv(path + data_path + "prez2024_med_sv_okr.csv", sep="|")
 source = pd.read_csv(path + "source.csv")
 
 # CREATE FAKE RESULTS

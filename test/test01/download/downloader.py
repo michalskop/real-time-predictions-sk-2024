@@ -18,6 +18,8 @@ data_path = "downloaded/"
 # changing file only
 # files = ['nrsr2023_med_kan_sr', 'nrsr2023_med_ps_okr', 'nrsr2023_med_suma_sr', 'nrsr2023_med_sv_okr']
 files = ['hlasy_okr', 'sv_okr']
+files = ['prez2024_med_kan_okr', 'prez2024_med_sv_okr']
+
 
 t = datetime.datetime.now().isoformat(timespec='seconds')
 
