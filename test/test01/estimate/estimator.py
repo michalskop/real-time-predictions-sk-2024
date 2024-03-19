@@ -56,7 +56,7 @@ df = df.round({'mean': 2, 'lo': 2, 'hi': 2})
 j = {
   "info": "TEST RESULTS! Do not use as real predictions!",
   "datetime": df['datetime'][0],
-  "datetime_data": df['datetime_data'][0],
+  "datetime-data": df['datetime-data'][0],
   "counted": df['counted'][0],
   "candidates": []
 }
