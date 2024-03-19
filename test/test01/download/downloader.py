@@ -20,7 +20,6 @@ data_path = "downloaded/"
 files = ['hlasy_okr', 'sv_okr']
 files = ['prez2024_med_kan_okr', 'prez2024_med_sv_okr']
 
-
 t = datetime.datetime.now().isoformat(timespec='seconds')
 
 for f in files:
