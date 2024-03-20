@@ -83,7 +83,8 @@ class MyEncoder(json.JSONEncoder):
 
 
 df.fillna('', inplace=True)
-df['counted'] = df['counted'].astype(int)
+# df['counted'] = df['counted'].astype(int)
+df['counted'] = df['counted'].round(2)
 j = {
   "info": "TEST RESULTS! Do not use as real predictions!",
   "datetime": df['datetime'][0],

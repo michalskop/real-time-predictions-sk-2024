@@ -1,107 +1,107 @@
 {
   "info": "TEST RESULTS! Do not use as real predictions!",
-  "datetime": "2024-03-20T15:12:23",
-  "datetime-data": "2024-03-05T09:30:00",
-  "counted": 18,
+  "datetime": "2024-03-20T15:13:23",
+  "datetime-data": "2024-03-05T10:50:00",
+  "counted": 26,
   "candidates": [
     {
       "id": 10,
       "name": "Peter Pellegrini",
       "given_name": "Peter",
       "family_name": "Pellegrini",
-      "mean": 24.8,
-      "lo": 20.85,
-      "hi": 28.75
+      "mean": 23.47,
+      "lo": 20.11,
+      "hi": 26.84
     },
     {
       "id": 5,
       "name": "Ivan Korčok",
       "given_name": "Ivan",
       "family_name": "Korčok",
-      "mean": 22.72,
-      "lo": 19.1,
-      "hi": 26.34
+      "mean": 21.78,
+      "lo": 18.66,
+      "hi": 24.91
     },
     {
       "id": 1,
       "name": "Andrej Danko",
       "given_name": "Andrej",
       "family_name": "Danko",
-      "mean": 10.37,
-      "lo": 8.72,
-      "hi": 12.02
+      "mean": 10.76,
+      "lo": 9.22,
+      "hi": 12.3
     },
     {
       "id": 4,
       "name": "Štefan Harabin",
       "given_name": "Štefan",
       "family_name": "Harabin",
-      "mean": 8.99,
-      "lo": 7.56,
-      "hi": 10.42
-    },
-    {
-      "id": 8,
-      "name": "Igor Matovič",
-      "given_name": "Igor",
-      "family_name": "Matovič",
-      "mean": 5.91,
-      "lo": 4.97,
-      "hi": 6.85
+      "mean": 8.94,
+      "lo": 7.66,
+      "hi": 10.22
     },
     {
       "id": 3,
       "name": "Krisztián Forró",
       "given_name": "Krisztián",
       "family_name": "Forró",
-      "mean": 5.84,
-      "lo": 4.91,
-      "hi": 6.77
+      "mean": 6.7,
+      "lo": 5.74,
+      "hi": 7.66
+    },
+    {
+      "id": 8,
+      "name": "Igor Matovič",
+      "given_name": "Igor",
+      "family_name": "Matovič",
+      "mean": 5.81,
+      "lo": 4.98,
+      "hi": 6.64
     },
     {
       "id": 2,
       "name": "Patrik Dubovský",
       "given_name": "Patrik",
       "family_name": "Dubovský",
-      "mean": 5.54,
-      "lo": 4.66,
-      "hi": 6.43
+      "mean": 5.74,
+      "lo": 4.91,
+      "hi": 6.56
     },
     {
       "id": 7,
       "name": "Ján Kubiš",
       "given_name": "Ján",
       "family_name": "Kubiš",
-      "mean": 4.72,
-      "lo": 3.97,
-      "hi": 5.47
+      "mean": 5.12,
+      "lo": 4.39,
+      "hi": 5.86
     },
     {
       "id": 6,
       "name": "Marian Kotleba",
       "given_name": "Marian",
       "family_name": "Kotleba",
-      "mean": 4.54,
-      "lo": 3.82,
-      "hi": 5.27
+      "mean": 4.71,
+      "lo": 4.04,
+      "hi": 5.39
     },
     {
       "id": 11,
       "name": "Róbert Švec",
       "given_name": "Róbert",
       "family_name": "Švec",
-      "mean": 3.55,
-      "lo": 2.99,
-      "hi": 4.12
+      "mean": 3.77,
+      "lo": 3.23,
+      "hi": 4.31
     },
     {
       "id": 9,
       "name": "Milan Náhlík",
       "given_name": "Milan",
       "family_name": "Náhlík",
-      "mean": 3.0,
-      "lo": 2.53,
-      "hi": 3.48
+      "mean": 3.2,
+      "lo": 2.74,
+      "hi": 3.66
     }
   ]
 }
