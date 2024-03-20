@@ -23,7 +23,7 @@ df = source.copy()
 # counted okrseks
 counted = round(sv_okr['P_OKRSOK'].sum() / 5938 * 100, 2)
 # or fake start:
-# counted = 100
+counted = 100
 
 df['counted'] = counted
 
