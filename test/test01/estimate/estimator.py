@@ -24,7 +24,8 @@ df = source.copy()
 counted = round(sv_okr['P_OKRSOK'].sum() / 5938 * 100, 2)
 # or fake start:
 # counted = 100
-# df['counted'] = counted
+
+df['counted'] = counted
 
 # error function, it should be 1 for 0% and 0 for 100%
 error = 1 - counted / 100
