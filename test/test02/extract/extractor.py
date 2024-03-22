@@ -14,3 +14,7 @@ df_okresy = pd.read_csv(path + "okresy.csv")
 df_candidates = pd.read_csv(path + "candidates.csv")
 
 # read results
+files = ['prez2024_med_kan_okr', 'prez2024_med_sv_okr']
+df_kan_okr = pd.read_csv(path + datapath + "downloaded/" + files[0] + ".csv", sep="|")
+df_sv_okr = pd.read_csv(path + datapath + "downloaded/" + files[1] + ".csv", sep="|")
+
