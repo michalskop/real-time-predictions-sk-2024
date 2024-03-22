@@ -20,6 +20,8 @@ path = "/home/michal/dev/real-time-predictions-sk-2024/maps/"
 df_candidates = pd.read_csv(path + "prepare/candidates.csv")
 candidates_ids = list(df_candidates['id'])
 df_data = pd.read_csv(path + "prepare/" + fname)
+df_source_points = pd.read_csv(path + "prepare/source_obce_points.csv")
+df_source_regions = pd.read_csv(path + "prepare/source_obce_regions.csv")
 
 # filter Bratislava and Košice
 df_data_BAKE = df_data[df_data['Kód okresu'].isin([101, 102, 103, 104, 105, 802, 803, 804, 805])]
@@ -49,8 +51,15 @@ df = df.loc[:, ['Kód obce'] + list(df_candidates['id'])]
 df.columns = ['obec_code'] + list(df_candidates['name'])
 
 # add column with winner
-df['Víťazný kandidát'] = df.loc[:, list(df_candidates['name'])].idxmax(axis=1)
+df['víťaz'] = df.loc[:, list(df_candidates['name'])].idxmax(axis=1)
 
 # sort and save
 df.sort_values('obec_code', inplace=True)
 df.to_csv(path + "obce.csv", index=False)
+
+# merge to sources and save
+df_points = df_source_points.merge(df, right_on='obec_code', left_on='IDN4', how='left')
+df_regions = df_source_regions.merge(df, right_on='obec_code', left_on='IDN4', how='left')
+
+df_points.to_csv(path + "obce_points.csv", index=False)
+df_regions.to_csv(path + "obce_regions.csv", index=False)
