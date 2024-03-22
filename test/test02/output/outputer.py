@@ -43,4 +43,8 @@ for i, row in df.iterrows():
 with open(path + "estimates.json", "w") as f:
   json.dump(output, f, indent=2, ensure_ascii=False)
 
+# archive
+with open(path + "archive/estimates_" + datetime.datetime.now().isoformat(timespec='seconds') + ".json", "w") as f:
+  json.dump(output, f, indent=2, ensure_ascii=False)
+
 print("Output done.")
