@@ -56,14 +56,23 @@ df.to_csv(path + "data.csv", index=False)
 
 # prepare info file with datetime of updates
 # format: 05.03.2024 11:45:00
+if len(df_kan_okr) == 0:
+  dt1 = '2024-03-23T20:00:00'
+else:
+  dt1 = datetime.datetime.strptime(df_kan_okr['DAT_AKT'][0], '%d.%m.%Y %H:%M:%S').isoformat(timespec='seconds')
+if len(df_sv_okr) == 0:
+  dt2 = '2024-03-23T20:00:00'
+else:
+  dt2 = datetime.datetime.strptime(df_sv_okr['DAT_AKT'][0], '%d.%m.%Y %H:%M:%S').isoformat(timespec='seconds')
+
 info = [
   {
     'name': files[0],
-    'datetime': datetime.datetime.strptime(df_kan_okr['DAT_AKT'][0], '%d.%m.%Y %H:%M:%S').isoformat(timespec='seconds')
+    'datetime': dt1
   },
   {
     'name': files[1],
-    'datetime': datetime.datetime.strptime(df_sv_okr['DAT_AKT'][0], '%d.%m.%Y %H:%M:%S').isoformat(timespec='seconds')
+    'datetime': dt2
   }
 ]
 pd.DataFrame(info).to_csv(path + "info.csv", index=False)
