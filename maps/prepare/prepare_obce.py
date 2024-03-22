@@ -50,8 +50,9 @@ df = df.loc[:, ['Kód obce'] + list(df_candidates['id'])]
 # rename columns
 df.columns = ['obec_code'] + list(df_candidates['name'])
 
-# add column with winner
+# add column with winner and reorder before candidates
 df['víťaz'] = df.loc[:, list(df_candidates['name'])].idxmax(axis=1)
+df = df.loc[:, ['obec_code', 'víťaz'] + list(df_candidates['name'])]
 
 # sort and save
 df.sort_values('obec_code', inplace=True)
