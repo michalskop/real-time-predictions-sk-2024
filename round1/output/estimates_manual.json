@@ -1,0 +1,108 @@
+{
+  "info": "Manual estimate!",
+  "datetime": "2024-03-22T15:52:00",
+  "datetime-model": "",
+  "datetime-data": "",
+  "counted": 0.0,
+  "candidates": [
+    {
+      "id": 5,
+      "name": "Ivan Korčok",
+      "given_name": "Ivan",
+      "family_name": "Korčok",
+      "mean": 37.0,
+      "hi": 32.0,
+      "lo": 40.0
+    },
+    {
+      "id": 10,
+      "name": "Peter Pellegrini",
+      "given_name": "Peter",
+      "family_name": "Pellegrini",
+      "mean": 37.0,
+      "hi": 32.0,
+      "lo": 40.0
+    },
+    {
+      "id": 4,
+      "name": "Štefan Harabin",
+      "given_name": "Štefan",
+      "family_name": "Harabin",
+      "mean": 14.0,
+      "hi": 12.0,
+      "lo": 16.0
+    },
+    {
+      "id": 3,
+      "name": "Krisztián Forró",
+      "given_name": "Krisztián",
+      "family_name": "Forró",
+      "mean": 3.0,
+      "hi": 1.0,
+      "lo": 5.0
+    },
+    {
+      "id": 8,
+      "name": "Igor Matovič",
+      "given_name": "Igor",
+      "family_name": "Matovič",
+      "mean": 3.0,
+      "hi": 1.5,
+      "lo": 4.5
+    },
+    {
+      "id": 7,
+      "name": "Ján Kubiš",
+      "given_name": "Ján",
+      "family_name": "Kubiš",
+      "mean": 2.5,
+      "hi": 1.5,
+      "lo": 5.0
+    },
+    {
+      "id": 6,
+      "name": "Marian Kotleba",
+      "given_name": "Marian",
+      "family_name": "Kotleba",
+      "mean": 1.5,
+      "hi": 0.5,
+      "lo": 4.0
+    },
+    {
+      "id": 2,
+      "name": "Patrik Dubovský",
+      "given_name": "Patrik",
+      "family_name": "Dubovský",
+      "mean": 1.0,
+      "hi": 0.0,
+      "lo": 2.0
+    },
+    {
+      "id": 9,
+      "name": "Milan Náhlik",
+      "given_name": "Milan",
+      "family_name": "Náhlik",
+      "mean": 0.5,
+      "hi": 0.0,
+      "lo": 1.0
+    },
+    {
+      "id": 11,
+      "name": "Róbert Švec",
+      "given_name": "Róbert",
+      "family_name": "Švec",
+      "mean": 0.5,
+      "hi": 0.0,
+      "lo": 1.0
+    },
+    {
+      "id": 1,
+      "name": "Andrej Danko",
+      "given_name": "Andrej",
+      "family_name": "Danko",
+      "mean": 0.0,
+      "hi": 0.0,
+      "lo": 0.0
+    }
+  ]
+}
