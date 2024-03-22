@@ -13,6 +13,7 @@ path = "/home/michal/dev/real-time-predictions-sk-2024/test/test02/download/"
 data_path = "downloaded/"
 
 server_url = "https://www.matop.sk/data/su/"
+server_url = "http://localhost:8000/"
 # server_url = "https://volbysr.sk/media/"
 
 # credentials

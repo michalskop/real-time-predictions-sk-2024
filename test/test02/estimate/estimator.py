@@ -76,18 +76,22 @@ w_current = df_matrix.sum(axis=1) / df_matrix.sum().sum()
 
 # current rates for each candidate overall
 df_matrix_current_candidates_rates = df_matrix.sum(axis=0) / df_matrix.sum().sum()
+df_matrix_current_candidates_rates.fillna(0, inplace=True)
 
 
 # where each candidate stands in the initial rates - average of the initial estimates weighted by the current okreses' rates w_current
 candidates_standing_at = w_current @ df_rates_matrix
+candidates_standing_at.fillna(1, inplace=True)
 
 
 # current results in each okres (percentage of votes for each candidate
 df_matrix_current_rates = df_matrix.div(df_matrix.sum(axis=1), axis=0)
+df_matrix_current_rates.fillna(0, inplace=True)
 
 
 # current turnout rates for each okres
 current_turnout = df['voted'] / df['voters']
+current_turnout.fillna(0, inplace=True)
 
 
 # rate, how much polling stations are already counted in each okres
