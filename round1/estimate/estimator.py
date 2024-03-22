@@ -19,7 +19,7 @@ import numpy as np
 election_code = "president_2024-1"
 
 # path
-path = "/home/michal/dev/real-time-predictions-sk-2024/test/test02/estimate/"
+path = "/home/michal/dev/real-time-predictions-sk-2024/round1/estimate/"
 
 # read data
 df = pd.read_csv(path + "../extract/data.csv")
