@@ -22,17 +22,13 @@ server_url = "https://www.matop.sk/data/su/"
 username = "ZPRAVY"
 password = "zvy+493-HZV8p4z"
 
+# setting headers
 credentials = username + ":" + password
 encoded_credentials = base64.b64encode(credentials.encode("ascii")).decode("ascii")
 headers = {"Authorization": "Basic " + encoded_credentials}
 
 # all files
-# files = ['nrsr2023_med_kan_sr', 'nrsr2023_med_kandidati', 'nrsr2023_med_okresy', 'nrsr2023_med_ps_okr', 'nrsr2023_med_psubjekty', 'nrsr2023_med_suma_sr', 'nrsr2023_med_sv_okr']
-# important files only
-# files = ['nrsr2023_med_ps_okr', 'nrsr2023_med_sv_okr', 'nrsr2023_med_suma_sr']
-# changing file only
-# files = ['nrsr2023_med_kan_sr', 'nrsr2023_med_ps_okr', 'nrsr2023_med_suma_sr', 'nrsr2023_med_sv_okr']
-files = ['hlasy_okr', 'sv_okr']
+# files = ['hlasy_okr', 'sv_okr']
 files = ['prez2024_med_kan_okr', 'prez2024_med_sv_okr']
 
 t = datetime.datetime.now().isoformat(timespec='seconds')
