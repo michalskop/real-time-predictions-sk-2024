@@ -161,6 +161,7 @@ estimated_votes = estimated_rates.apply(lambda row: row * estimated_voted[row.na
 # estimated results
 estimated_results = estimated_votes.sum()
 results = pd.DataFrame(estimated_results / estimated_results.sum() * 100)
+results.fillna(0, inplace=True)
 
 # save results
 results['candidate'] = "votes_" + results.index
