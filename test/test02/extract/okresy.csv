@@ -1,0 +1,80 @@
+okres_code,okres,polling_stations
+101,Bratislava I,34
+102,Bratislava II,102
+103,Bratislava III,56
+104,Bratislava IV,88
+105,Bratislava V,65
+106,Malacky,59
+107,Pezinok,55
+108,Senec,77
+201,Dunajská Streda,126
+202,Galanta,84
+203,Hlohovec,45
+204,Piešťany,63
+205,Senica,53
+206,Skalica,44
+207,Trnava,113
+301,Bánovce nad Bebravou,62
+302,Ilava,60
+303,Myjava,32
+304,Nové Mesto nad Váhom,67
+305,Partizánske,50
+306,Považská Bystrica,71
+307,Prievidza,133
+308,Púchov,53
+309,Trenčín,116
+401,Komárno,107
+402,Levice,160
+403,Nitra,166
+404,Nové Zámky,134
+405,Šaľa,42
+406,Topoľčany,88
+407,Zlaté Moravce,46
+501,Bytča,33
+502,Čadca,77
+503,Dolný Kubín,43
+504,Kysucké Nové Mesto,28
+505,Liptovský Mikuláš,95
+506,Martin,106
+507,Námestovo,52
+508,Ružomberok,59
+509,Turčianske Teplice,32
+510,Tvrdošín,32
+511,Žilina,158
+601,Banská Bystrica,130
+602,Banská Štiavnica,23
+603,Brezno,65
+604,Detva,44
+605,Krupina,46
+606,Lučenec,97
+607,Poltár,37
+608,Revúca,66
+609,Rimavská Sobota,151
+610,Veľký Krtíš,83
+611,Zvolen,75
+612,Žarnovica,35
+613,Žiar nad Hronom,56
+701,Bardejov,116
+702,Humenné,87
+703,Kežmarok,67
+704,Levoča,47
+705,Medzilaborce,30
+706,Poprad,92
+707,Prešov,169
+708,Sabinov,63
+709,Snina,48
+710,Stará Ľubovňa,62
+711,Stropkov,52
+712,Svidník,78
+713,Vranov nad Topľou,93
+801,Gelnica,32
+802,Košice I,59
+803,Košice II,60
+804,Košice III,22
+805,Košice IV,51
+806,Košice - okolie,151
+807,Michalovce,131
+808,Rožňava,88
+809,Sobrance,52
+810,Spišská Nová Ves,86
+811,Trebišov,128
