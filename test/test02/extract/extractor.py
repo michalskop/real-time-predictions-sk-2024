@@ -7,6 +7,7 @@ import pandas as pd
 
 # path
 path = "/home/michal/dev/real-time-predictions-sk-2024/test/test02/extract/"
+datapath = "../download/"
 
 # read source files
 df_okresy = pd.read_csv(path + "okresy.csv")
