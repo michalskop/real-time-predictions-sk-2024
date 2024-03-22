@@ -8,3 +8,8 @@ import pandas as pd
 # path
 path = "/home/michal/dev/real-time-predictions-sk-2024/test/test02/extract/"
 
+# read source files
+df_okresy = pd.read_csv(path + "okresy.csv")
+df_candidates = pd.read_csv(path + "candidates.csv")
+
+# read results
