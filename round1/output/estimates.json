@@ -1,27 +1,27 @@
 {
   "info": "REAL RESULTS! Godspeed to the model!",
-  "datetime": "2024-03-24T00:06:27",
-  "datetime-model": "2024-03-24T00:06:22",
-  "datetime-data": "2024-03-23T23:50:00",
-  "counted": 94.11,
+  "datetime": "2024-03-24T00:07:26",
+  "datetime-model": "2024-03-24T00:07:21",
+  "datetime-data": "2024-03-24T00:00:00",
+  "counted": 96.83,
   "candidates": [
     {
       "id": 5,
       "name": "Ivan Korčok",
       "given_name": "Ivan",
       "fimily_name": "Korčok",
-      "mean": 42.35,
-      "hi": 43.6,
-      "lo": 41.1
+      "mean": 42.37,
+      "hi": 42.8,
+      "lo": 41.94
     },
     {
       "id": 10,
       "name": "Peter Pellegrini",
       "given_name": "Peter",
       "fimily_name": "Pellegrini",
-      "mean": 37.16,
-      "hi": 38.26,
-      "lo": 36.06
+      "mean": 37.13,
+      "hi": 37.52,
+      "lo": 36.75
     },
     {
       "id": 4,
@@ -29,8 +29,8 @@
       "given_name": "Štefan",
       "fimily_name": "Harabin",
       "mean": 11.75,
-      "hi": 12.12,
-      "lo": 11.37
+      "hi": 11.9,
+      "lo": 11.6
     },
     {
       "id": 3,
@@ -38,26 +38,26 @@
       "given_name": "Krisztián",
       "fimily_name": "Forró",
       "mean": 2.94,
-      "hi": 3.06,
-      "lo": 2.82
+      "hi": 3.01,
+      "lo": 2.87
     },
     {
       "id": 8,
       "name": "Igor Matovič",
       "given_name": "Igor",
       "fimily_name": "Matovič",
-      "mean": 2.24,
-      "hi": 2.34,
-      "lo": 2.13
+      "mean": 2.21,
+      "hi": 2.27,
+      "lo": 2.14
     },
     {
       "id": 7,
       "name": "Ján Kubiš",
       "given_name": "Ján",
       "fimily_name": "Kubiš",
-      "mean": 2.02,
-      "hi": 2.12,
-      "lo": 1.93
+      "mean": 2.03,
+      "hi": 2.09,
+      "lo": 1.96
     },
     {
       "id": 2,
@@ -65,17 +65,17 @@
       "given_name": "Patrik",
       "fimily_name": "Dubovský",
       "mean": 0.71,
-      "hi": 0.77,
-      "lo": 0.65
+      "hi": 0.76,
+      "lo": 0.66
     },
     {
       "id": 6,
       "name": "Marian Kotleba",
       "given_name": "Marian",
       "fimily_name": "Kotleba",
-      "mean": 0.53,
+      "mean": 0.54,
       "hi": 0.59,
-      "lo": 0.48
+      "lo": 0.5
     },
     {
       "id": 9,
@@ -83,7 +83,7 @@
       "given_name": "Milan",
       "fimily_name": "Náhlik",
       "mean": 0.14,
-      "hi": 0.18,
+      "hi": 0.19,
       "lo": 0.1
     },
     {
@@ -93,7 +93,7 @@
       "fimily_name": "Danko",
       "mean": 0.09,
       "hi": 0.13,
-      "lo": 0.05
+      "lo": 0.04
     },
     {
       "id": 11,
@@ -101,7 +101,7 @@
       "given_name": "Róbert",
       "fimily_name": "Švec",
       "mean": 0.08,
-      "hi": 0.12,
+      "hi": 0.13,
       "lo": 0.04
     }
   ]
