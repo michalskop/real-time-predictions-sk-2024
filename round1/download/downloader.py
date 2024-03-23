@@ -15,9 +15,9 @@ path = "/home/michal/dev/real-time-predictions-sk-2024/round1/download/"
 data_path = "downloaded/"
 
 # server_url = "https://www.matop.sk/data/su/"  # testing server 1
-server_url = "http://localhost:8000/" # local testing server
+# server_url = "http://localhost:8000/" # local testing server
 # server_url = "https://hlasovali.cz/real-time-predictions-sk-2024/round1/" # backup server with data
-# server_url = "https://volbysr.sk/media/"  # real server
+server_url = "https://volbysr.sk/media/"  # real server
 
 # credentials
 # Note: it should be in a separate file gitignored **TODO**
