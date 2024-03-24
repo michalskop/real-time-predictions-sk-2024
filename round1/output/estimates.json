@@ -1,17 +1,17 @@
 {
   "info": "REAL RESULTS! Godspeed to the model!",
-  "datetime": "2024-03-24T01:55:26",
-  "datetime-model": "2024-03-24T01:55:22",
+  "datetime": "2024-03-24T01:56:26",
+  "datetime-model": "2024-03-24T01:56:21",
   "datetime-data": "2024-03-24T01:40:00",
-  "counted": 99.95,
+  "counted": 100.0,
   "candidates": [
     {
       "id": 5,
       "name": "Ivan Korčok",
       "given_name": "Ivan",
       "fimily_name": "Korčok",
-      "mean": 42.5,
-      "hi": 42.67,
+      "mean": 42.49,
+      "hi": 42.66,
       "lo": 42.32
     },
     {
@@ -21,7 +21,7 @@
       "fimily_name": "Pellegrini",
       "mean": 37.05,
       "hi": 37.2,
-      "lo": 36.9
+      "lo": 36.91
     },
     {
       "id": 4,
@@ -30,7 +30,7 @@
       "fimily_name": "Harabin",
       "mean": 11.74,
       "hi": 11.78,
-      "lo": 11.7
+      "lo": 11.71
     },
     {
       "id": 3,
@@ -39,7 +39,7 @@
       "fimily_name": "Forró",
       "mean": 2.91,
       "hi": 2.94,
-      "lo": 2.9
+      "lo": 2.91
     },
     {
       "id": 8,
@@ -48,7 +48,7 @@
       "fimily_name": "Matovič",
       "mean": 2.18,
       "hi": 2.22,
-      "lo": 2.18
+      "lo": 2.19
     },
     {
       "id": 7,
@@ -75,7 +75,7 @@
       "fimily_name": "Kotleba",
       "mean": 0.57,
       "hi": 0.6,
-      "lo": 0.57
+      "lo": 0.58
     },
     {
       "id": 9,
@@ -84,7 +84,7 @@
       "fimily_name": "Náhlik",
       "mean": 0.14,
       "hi": 0.17,
-      "lo": 0.14
+      "lo": 0.15
     },
     {
       "id": 1,
@@ -93,7 +93,7 @@
       "fimily_name": "Danko",
       "mean": 0.08,
       "hi": 0.12,
-      "lo": 0.09
+      "lo": 0.1
     },
     {
       "id": 11,
@@ -102,7 +102,7 @@
       "fimily_name": "Švec",
       "mean": 0.08,
       "hi": 0.12,
-      "lo": 0.09
+      "lo": 0.1
     }
   ]
 }
