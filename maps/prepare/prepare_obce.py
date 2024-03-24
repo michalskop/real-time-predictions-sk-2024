@@ -11,7 +11,7 @@
 
 import pandas as pd
 
-fname = "NRSR2023_SK_tab03e.csv"
+fname = "PREZ2024_kolo1_SK_tab03e.csv"
 cname = 'Číslo politického subjektu'
 
 path = "/home/michal/dev/real-time-predictions-sk-2024/maps/"
