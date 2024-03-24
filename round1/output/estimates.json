@@ -1,9 +1,9 @@
 {
   "info": "REAL RESULTS! Godspeed to the model!",
-  "datetime": "2024-03-24T01:25:27",
-  "datetime-model": "2024-03-24T01:25:22",
-  "datetime-data": "2024-03-24T01:10:00",
-  "counted": 99.92,
+  "datetime": "2024-03-24T01:26:26",
+  "datetime-model": "2024-03-24T01:26:21",
+  "datetime-data": "2024-03-24T01:20:00",
+  "counted": 99.93,
   "candidates": [
     {
       "id": 5,
@@ -11,7 +11,7 @@
       "given_name": "Ivan",
       "fimily_name": "Korčok",
       "mean": 42.49,
-      "hi": 42.67,
+      "hi": 42.66,
       "lo": 42.31
     },
     {
@@ -30,7 +30,7 @@
       "fimily_name": "Harabin",
       "mean": 11.74,
       "hi": 11.79,
-      "lo": 11.69
+      "lo": 11.7
     },
     {
       "id": 3,
@@ -66,7 +66,7 @@
       "fimily_name": "Dubovský",
       "mean": 0.71,
       "hi": 0.75,
-      "lo": 0.71
+      "lo": 0.72
     },
     {
       "id": 6,
