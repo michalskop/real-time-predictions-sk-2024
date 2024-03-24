@@ -1,9 +1,9 @@
 {
   "info": "REAL RESULTS! Godspeed to the model!",
-  "datetime": "2024-03-24T01:45:26",
-  "datetime-model": "2024-03-24T01:45:22",
+  "datetime": "2024-03-24T01:46:26",
+  "datetime-model": "2024-03-24T01:46:21",
   "datetime-data": "2024-03-24T01:30:00",
-  "counted": 99.93,
+  "counted": 99.95,
   "candidates": [
     {
       "id": 5,
@@ -20,7 +20,7 @@
       "given_name": "Peter",
       "fimily_name": "Pellegrini",
       "mean": 37.05,
-      "hi": 37.21,
+      "hi": 37.2,
       "lo": 36.9
     },
     {
@@ -57,7 +57,7 @@
       "fimily_name": "Kubiš",
       "mean": 2.04,
       "hi": 2.07,
-      "lo": 2.03
+      "lo": 2.04
     },
     {
       "id": 2,
