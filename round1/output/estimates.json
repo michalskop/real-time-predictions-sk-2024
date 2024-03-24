@@ -1,8 +1,8 @@
 {
   "info": "REAL RESULTS! Godspeed to the model!",
-  "datetime": "2024-03-24T01:46:26",
-  "datetime-model": "2024-03-24T01:46:21",
-  "datetime-data": "2024-03-24T01:30:00",
+  "datetime": "2024-03-24T01:47:27",
+  "datetime-model": "2024-03-24T01:47:22",
+  "datetime-data": "2024-03-24T01:40:00",
   "counted": 99.95,
   "candidates": [
     {
@@ -10,9 +10,9 @@
       "name": "Ivan Korčok",
       "given_name": "Ivan",
       "fimily_name": "Korčok",
-      "mean": 42.49,
-      "hi": 42.66,
-      "lo": 42.31
+      "mean": 42.5,
+      "hi": 42.67,
+      "lo": 42.32
     },
     {
       "id": 10,
@@ -29,7 +29,7 @@
       "given_name": "Štefan",
       "fimily_name": "Harabin",
       "mean": 11.74,
-      "hi": 11.79,
+      "hi": 11.78,
       "lo": 11.7
     },
     {
