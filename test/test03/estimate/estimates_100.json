@@ -2,7 +2,7 @@
   "info": "TEST RESULTS! Do not use as real predictions!",
   "datetime": "2024-03-20T10:44:30",
   "datetime-data": "2024-03-05T11:45:00",
-  "counted": 0,
+  "counted": 100,
   "candidates": [
     {
       "id": 5,
