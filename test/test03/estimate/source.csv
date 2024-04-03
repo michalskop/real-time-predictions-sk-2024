@@ -1,0 +1,3 @@
+id,given_name,family_name,name,mean,lo,hi,counted,datetime,datetime-data
+5,Ivan,Korčok,Ivan Korčok,35.05,,,,2024-03-23T22:51:45,2024-03-23T22:45:00
+10,Peter,Pellegrini,Peter Pellegrini,36.15,,,,2024-03-23T22:51:45,2024-03-23T22:45:00
