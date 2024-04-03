@@ -9,18 +9,18 @@
       "name": "Ivan Korčok",
       "given_name": "Ivan",
       "family_name": "Korčok",
-      "mean": "",
-      "lo": "",
-      "hi": ""
+      "mean": 50.5,
+      "lo": 43,
+      "hi": 58
     },
     {
       "id": 10,
       "name": "Peter Pellegrini",
       "given_name": "Peter",
       "family_name": "Pellegrini",
-      "mean": "",
-      "lo": "",
-      "hi": ""
+      "mean": 49.5,
+      "lo": 42,
+      "hi": 547
     }
   ] 
 }
