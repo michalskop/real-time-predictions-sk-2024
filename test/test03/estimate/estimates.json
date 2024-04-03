@@ -1,8 +1,8 @@
 {
   "info": "TEST RESULTS! Do not use as real predictions!",
-  "datetime": "2024-04-03T15:51:21",
-  "datetime-data": "2024-03-05T11:40:00",
-  "counted": 26.88,
+  "datetime": "2024-04-03T15:52:21",
+  "datetime-data": "2024-03-05T11:45:00",
+  "counted": 26.91,
   "candidates": [
     {
       "id": 1,
@@ -11,7 +11,7 @@
       "family_name": "Korčok",
       "mean": 65.23,
       "lo": 55.88,
-      "hi": 74.58
+      "hi": 74.57
     },
     {
       "id": 2,
