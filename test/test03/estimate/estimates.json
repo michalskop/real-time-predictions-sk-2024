@@ -1,26 +1,26 @@
 {
   "info": "TEST RESULTS! Do not use as real predictions!",
-  "datetime": "2024-04-03T15:33:21",
-  "datetime-data": "2024-03-05T09:30:00",
-  "counted": 18.76,
+  "datetime": "2024-04-03T15:34:21",
+  "datetime-data": "2024-03-05T10:50:00",
+  "counted": 26.88,
   "candidates": [
     {
       "id": 1,
       "name": "Ivan Korčok",
       "given_name": "Ivan",
       "family_name": "Korčok",
-      "mean": 65.17,
-      "lo": 54.79,
-      "hi": 75.55
+      "mean": 65.23,
+      "lo": 55.88,
+      "hi": 74.58
     },
     {
       "id": 2,
       "name": "Peter Pellegrini",
       "given_name": "Peter",
       "family_name": "Pellegrini",
-      "mean": 34.83,
-      "lo": 29.28,
-      "hi": 40.38
+      "mean": 34.77,
+      "lo": 29.79,
+      "hi": 39.75
     }
   ]
 }
