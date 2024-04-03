@@ -12,8 +12,7 @@
 import pandas as pd
 
 fname = "PREZ2024_kolo1_SK_tab03e.csv"
-cname = 'Číslo politického subjektu'
-
+cname = 'Poradie na hlasovacom lístku'
 path = "/home/michal/dev/real-time-predictions-sk-2024/maps/"
 
 # read data
