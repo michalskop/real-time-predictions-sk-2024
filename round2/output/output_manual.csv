@@ -1,0 +1,3 @@
+id,name,given_name,family_name,mean,hi,lo,info,datetime,datetime-model,datetime-data,counted
+1,Ivan Korčok,Ivan,Korčok,50,42,58,Manual estimate!,2024-04-04T15:52:00,,,0
+2,Peter Pellegrini,Peter,Pellegrini,50,42,58,,,,,

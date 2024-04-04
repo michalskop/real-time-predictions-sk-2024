@@ -1,0 +1,80 @@
+okres_code,okres,polling_stations,last_voters
+101,Bratislava I,34,39538
+102,Bratislava II,102,103052
+103,Bratislava III,56,60952
+104,Bratislava IV,88,85122
+105,Bratislava V,65,99737
+106,Malacky,59,63257
+107,Pezinok,55,55282
+108,Senec,77,78790
+201,Dunajská Streda,126,104517
+202,Galanta,84,78374
+203,Hlohovec,45,35685
+204,Piešťany,63,51704
+205,Senica,53,50132
+206,Skalica,44,38465
+207,Trnava,113,107501
+301,Bánovce nad Bebravou,62,28956
+302,Ilava,60,47105
+303,Myjava,32,21275
+304,Nové Mesto nad Váhom,67,50350
+305,Partizánske,50,36079
+306,Považská Bystrica,71,49724
+307,Prievidza,133,107024
+308,Púchov,53,35845
+309,Trenčín,116,92903
+401,Komárno,107,82139
+402,Levice,160,89774
+403,Nitra,166,134716
+404,Nové Zámky,134,112406
+405,Šaľa,42,41392
+406,Topoľčany,88,58003
+407,Zlaté Moravce,46,33541
+501,Bytča,33,25301
+502,Čadca,77,71303
+503,Dolný Kubín,43,30746
+504,Kysucké Nové Mesto,28,26433
+505,Liptovský Mikuláš,95,59610
+506,Martin,106,76416
+507,Námestovo,52,46956
+508,Ružomberok,59,46086
+509,Turčianske Teplice,32,13246
+510,Tvrdošín,32,27982
+511,Žilina,158,129322
+601,Banská Bystrica,130,88271
+602,Banská Štiavnica,23,12902
+603,Brezno,65,47914
+604,Detva,44,25480
+605,Krupina,46,17607
+606,Lučenec,97,55864
+607,Poltár,37,16718
+608,Revúca,66,29822
+609,Rimavská Sobota,151,62112
+610,Veľký Krtíš,83,33534
+611,Zvolen,75,53914
+612,Žarnovica,35,20531
+613,Žiar nad Hronom,56,36276
+701,Bardejov,116,59018
+702,Humenné,87,48152
+703,Kežmarok,67,53494
+704,Levoča,47,25643
+705,Medzilaborce,30,8792
+706,Poprad,92,82437
+707,Prešov,169,134277
+708,Sabinov,63,44258
+709,Snina,48,27944
+710,Stará Ľubovňa,62,39597
+711,Stropkov,52,15572
+712,Svidník,78,25047
+713,Vranov nad Topľou,93,60518
+801,Gelnica,32,23397
+802,Košice I,59,52387
+803,Košice II,60,63122
+804,Košice III,22,23127
+805,Košice IV,51,46711
+806,Košice - okolie,151,100728
+807,Michalovce,131,84777
+808,Rožňava,88,46513
+809,Sobrance,52,17425
+810,Spišská Nová Ves,86,73304
+811,Trebišov,128,80145
