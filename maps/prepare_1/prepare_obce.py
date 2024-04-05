@@ -16,11 +16,11 @@ cname = 'Poradie na hlasovacom lístku'
 path = "/home/michal/dev/real-time-predictions-sk-2024/maps/"
 
 # read data
-df_candidates = pd.read_csv(path + "prepare/candidates.csv")
+df_candidates = pd.read_csv(path + "prepare_1/candidates.csv")
 candidates_ids = list(df_candidates['id'])
-df_data = pd.read_csv(path + "prepare/" + fname)
-df_source_points = pd.read_csv(path + "prepare/source_obce_points.csv")
-df_source_regions = pd.read_csv(path + "prepare/source_obce_regions.csv")
+df_data = pd.read_csv(path + "prepare_1/" + fname)
+df_source_points = pd.read_csv(path + "prepare_1/source_obce_points.csv")
+df_source_regions = pd.read_csv(path + "prepare_1/source_obce_regions.csv")
 
 # filter Bratislava and Košice
 df_data_BAKE = df_data[df_data['Kód okresu'].isin([101, 102, 103, 104, 105, 802, 803, 804, 805])]

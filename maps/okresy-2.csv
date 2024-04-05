@@ -1,0 +1,80 @@
+okres_code,okres,víťazný kandidát,Korčok,Pellegrini
+101,Bratislava I,Korčok,81.02,18.98
+102,Bratislava II,Korčok,75.63,24.37
+103,Bratislava III,Korčok,76.78,23.22
+104,Bratislava IV,Korčok,74.75,25.25
+105,Bratislava V,Korčok,73.05,26.95
+106,Malacky,Korčok,61.06,38.94
+107,Pezinok,Korčok,66.27,33.73
+108,Senec,Korčok,72.48,27.52
+201,Dunajská Streda,Korčok,59.88,40.12
+202,Galanta,Korčok,54.08,45.92
+203,Hlohovec,Pellegrini,46.66,53.34
+204,Piešťany,Korčok,55.39,44.61
+205,Senica,Korčok,55.66,44.34
+206,Skalica,Korčok,62.46,37.54
+207,Trnava,Korčok,58.26,41.74
+301,Bánovce nad Bebravou,Pellegrini,41.93,58.07
+302,Ilava,Pellegrini,43.21,56.79
+303,Myjava,Korčok,52.38,47.62
+304,Nové Mesto nad Váhom,Korčok,50.31,49.69
+305,Partizánske,Pellegrini,42.74,57.26
+306,Považská Bystrica,Pellegrini,42.47,57.53
+307,Prievidza,Pellegrini,44.32,55.68
+308,Púchov,Pellegrini,42.54,57.46
+309,Trenčín,Korčok,55.69,44.31
+401,Komárno,Pellegrini,48.31,51.69
+402,Levice,Pellegrini,49.5,50.5
+403,Nitra,Korčok,51.81,48.19
+404,Nové Zámky,Pellegrini,46.34,53.66
+405,Šaľa,Korčok,55.94,44.06
+406,Topoľčany,Pellegrini,37.63,62.37
+407,Zlaté Moravce,Pellegrini,38.69,61.31
+501,Bytča,Pellegrini,39.7,60.3
+502,Čadca,Pellegrini,32.56,67.44
+503,Dolný Kubín,Korčok,60.88,39.12
+504,Kysucké Nové Mesto,Pellegrini,36.84,63.16
+505,Liptovský Mikuláš,Korčok,52.6,47.4
+506,Martin,Korčok,52.58,47.42
+507,Námestovo,Korčok,54.2,45.8
+508,Ružomberok,Korčok,56.18,43.82
+509,Turčianske Teplice,Pellegrini,40.92,59.08
+510,Tvrdošín,Korčok,53.2,46.8
+511,Žilina,Korčok,53.83,46.17
+601,Banská Bystrica,Korčok,54.45,45.55
+602,Banská Štiavnica,Pellegrini,48.02,51.98
+603,Brezno,Pellegrini,38.02,61.98
+604,Detva,Pellegrini,34.46,65.54
+605,Krupina,Pellegrini,41.43,58.57
+606,Lučenec,Pellegrini,44.03,55.97
+607,Poltár,Pellegrini,28.75,71.25
+608,Revúca,Pellegrini,33.75,66.25
+609,Rimavská Sobota,Pellegrini,38.16,61.84
+610,Veľký Krtíš,Pellegrini,36.63,63.37
+611,Zvolen,Korčok,53.32,46.68
+612,Žarnovica,Pellegrini,41.0,59.0
+613,Žiar nad Hronom,Pellegrini,47.06,52.94
+701,Bardejov,Pellegrini,46.33,53.67
+702,Humenné,Pellegrini,38.32,61.68
+703,Kežmarok,Korčok,58.48,41.52
+704,Levoča,Korčok,52.67,47.33
+705,Medzilaborce,Pellegrini,25.6,74.4
+706,Poprad,Korčok,59.69,40.31
+707,Prešov,Korčok,60.37,39.63
+708,Sabinov,Pellegrini,43.61,56.39
+709,Snina,Pellegrini,27.82,72.18
+710,Stará Ľubovňa,Pellegrini,44.49,55.51
+711,Stropkov,Pellegrini,36.38,63.62
+712,Svidník,Pellegrini,29.64,70.36
+713,Vranov nad Topľou,Pellegrini,31.74,68.26
+801,Gelnica,Pellegrini,37.47,62.53
+802,Košice I,Korčok,70.37,29.63
+803,Košice II,Korčok,66.87,33.13
+804,Košice III,Korčok,62.32,37.68
+805,Košice IV,Korčok,65.01,34.99
+806,Košice - okolie,Korčok,55.21,44.79
+807,Michalovce,Pellegrini,35.47,64.53
+808,Rožňava,Pellegrini,44.38,55.62
+809,Sobrance,Pellegrini,23.66,76.34
+810,Spišská Nová Ves,Korčok,51.6,48.4
+811,Trebišov,Pellegrini,36.39,63.61
