@@ -1,27 +1,27 @@
 {
   "info": "REAL RESULTS! Godspeed to the model 2!",
-  "datetime": "2024-04-06T23:56:26",
-  "datetime-model": "2024-04-06T23:56:21",
-  "datetime-data": "2024-04-06T23:40:00",
-  "counted": 96.06,
+  "datetime": "2024-04-06T23:57:26",
+  "datetime-model": "2024-04-06T23:57:21",
+  "datetime-data": "2024-04-06T23:50:00",
+  "counted": 98.11,
   "candidates": [
     {
       "id": 2,
       "name": "Peter Pellegrini",
       "given_name": "Peter",
       "family_name": "Pellegrini",
-      "mean": 53.19,
-      "hi": 54.08,
-      "lo": 52.3
+      "mean": 53.22,
+      "hi": 54.07,
+      "lo": 52.37
     },
     {
       "id": 1,
       "name": "Ivan Korčok",
       "given_name": "Ivan",
       "family_name": "Korčok",
-      "mean": 46.81,
-      "hi": 47.6,
-      "lo": 46.02
+      "mean": 46.78,
+      "hi": 47.53,
+      "lo": 46.03
     }
   ]
 }
