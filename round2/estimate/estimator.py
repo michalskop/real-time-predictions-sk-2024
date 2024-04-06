@@ -18,6 +18,8 @@ import numpy as np
 
 election_code = "president_2024-2"
 
+coeff_interval = 1
+
 # path
 path = "/home/michal/dev/real-time-predictions-sk-2024/round2/estimate/"
 
@@ -220,8 +222,8 @@ df_ip = pd.DataFrame(interval_parameters)
 counted = currently_counted_total_polling_stations_rate * 100
 pars = df_ip[(df_ip['min'] <= counted) & (df_ip['max'] >= counted)].iloc[0]
 results_rich = results.copy()
-results_rich['hi'] = results_rich['result'] + (3 * (pars['a'] * results_rich['result'] + pars['b'] * (100 - counted) + pars['c']).apply(lambda x: 0.01 if x < 0.01 else x))
-results_rich['lo'] = results_rich['result'] - (3 * (pars['a'] * results_rich['result'] + pars['b'] * (100 - counted) + pars['c']))
+results_rich['hi'] = results_rich['result'] + ( coeff_interval * 3 * (pars['a'] * results_rich['result'] + pars['b'] * (100 - counted) + pars['c'])).apply(lambda x: 0.01 if x < 0.01 else x)
+results_rich['lo'] = results_rich['result'] - ( coeff_interval * 3 * (pars['a'] * results_rich['result'] + pars['b'] * (100 - counted) + pars['c']))
 # limit to 0-100
 results_rich['hi'] = results_rich['hi'].apply(lambda x: 100 if x > 100 else (0 if x < 0 else x))
 results_rich['lo'] = results_rich['lo'].apply(lambda x: 100 if x > 100 else (0 if x < 0 else x))
