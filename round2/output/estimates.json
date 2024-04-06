@@ -1,9 +1,9 @@
 {
   "info": "REAL RESULTS! Godspeed to the model 2!",
-  "datetime": "2024-04-06T22:23:26",
-  "datetime-model": "2024-04-06T22:23:21",
-  "datetime-data": "2024-04-06T20:00:00",
-  "counted": 0.0,
+  "datetime": "2024-04-06T22:24:26",
+  "datetime-model": "2024-04-06T22:24:21",
+  "datetime-data": "2024-04-06T22:10:00",
+  "counted": 0.03,
   "candidates": [
     {
       "id": 1,
@@ -11,7 +11,7 @@
       "given_name": "Ivan",
       "family_name": "Korčok",
       "mean": 50.17,
-      "hi": 62.46,
+      "hi": 62.45,
       "lo": 37.88
     },
     {
