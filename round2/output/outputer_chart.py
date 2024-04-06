@@ -34,3 +34,5 @@ output = df.T
 
 # save output
 output.to_csv(path + "prediction_bar_chart_flourish.csv", index=False, header=False)
+
+print("Output chart done.")
