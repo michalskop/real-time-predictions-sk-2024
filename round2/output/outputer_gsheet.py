@@ -49,6 +49,7 @@ ws.insert_row(row, index=last_row + 1)
 
 # read data model 0
 df_estimates = pd.read_csv(path + "../estimate/estimates_model0.csv")
+df_turnout = pd.read_csv(path + "../estimate/turnout.csv")
 
 # write estimates
 ws = sh.worksheet('models')
@@ -64,7 +65,7 @@ ws = sh.worksheet('model 0')
 # get last row
 last_row = len(ws.get_all_values())
 # prepare row
-row = [counted, dt] + df_estimates['result'].tolist()
+row = [counted, dt] + df_estimates['result'].tolist() + [''] + df_turnout['turnout'].tolist()
 # write row
 ws.insert_row(row, index=last_row + 1)
 
