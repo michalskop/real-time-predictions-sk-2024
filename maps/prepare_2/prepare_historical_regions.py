@@ -43,7 +43,7 @@ for c in candidates_ids:
   pt["perc_" + str(c)] = round(pt[c] / pt['sum'] * 100, 2)
 
 # rename columns
-pt.columns = [c for c in df_candidates['name']] + ['sum'] + ['perc_' + str(c) for c in df_candidates['name']]
+pt.columns = [c for c in df_candidates['name'] + ' hlasy'] + ['sum'] + [str(c) for c in df_candidates['name']]
 
 # add winner
 pt['víťaz'] = pt.loc[:, list(df_candidates['name'])].idxmax(axis=1)
