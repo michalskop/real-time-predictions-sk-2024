@@ -8,6 +8,7 @@ path = "/home/michal/dev/real-time-predictions-sk-2024/maps/"
 
 # read data
 df_candidates = pd.read_csv(path + "prepare_2/candidates.csv")
+cname = 'Poradie na hlasovacom lístku'
 candidates_ids = list(df_candidates['id'])
 df_data = pd.read_csv(path + "prepare_2/" + fname)
 df_population = pd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vSMOKZ5govz_WYU5Lz1XCHVm1y8hNA_Sc0kecVAbBHIqwOmBVuACGeR5prvghyy0nc-Wey5_GUXfQBM/pub?gid=322316457&single=true&output=csv")
