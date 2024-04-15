@@ -2,3 +2,8 @@
 Real time predictions for Slovak parliamentary elections 2024
 
 ## ROUND 2
+- downlaod
+- extract
+- estimate
+- output
+
