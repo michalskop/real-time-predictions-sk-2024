@@ -1,0 +1,11 @@
+# REAL TIME PREDICTIONS SK 2024 2nd round
+* * * * * ( sleep 5 ; /home/michal/mambaforge/bin/python3 /home/michal/dev/real-time-predictions-sk-2024/round2/download/downloader.py )
+* * * * * ( sleep 15 ; /home/michal/mambaforge/bin/python3 /home/michal/dev/real-time-predictions-sk-2024/round2/extract/extractor.py )
+* * * * * ( sleep 20 ; /home/michal/mambaforge/bin/python3 /home/michal/dev/real-time-predictions-sk-2024/round2/estimate/estimator.py )
+* * * * * ( sleep 22 ; /home/michal/mambaforge/bin/python3 /home/michal/dev/real-time-predictions-sk-2024/round2/estimate/estimator_model0.py )
+* * * * * ( sleep 25 ; /home/michal/mambaforge/bin/python3 /home/michal/dev/real-time-predictions-sk-2024/round2/output/outputer.py )
+* * * * * ( sleep 27 ; /home/michal/mambaforge/bin/python3 /home/michal/dev/real-time-predictions-sk-2024/round2/output/outputer_gsheet.py )
+* * * * * ( sleep 28 ; /home/michal/mambaforge/bin/python3 /home/michal/dev/real-time-predictions-sk-2024/round2/output/outputer_chart.py )
+* * * * * ( sleep 35 ; rsync -a /home/michal/dev/real-time-predictions-sk-2024/round2/output/estimates.* michal@138.68.110.130:/var/www/hlasovali.cz/real-time-predictions-sk-2024/round2/ )
+* * * * * /usr/bin/git -C /home/michal/dev/real-time-predictions-sk-2024/ add round2/ && /usr/bin/git -C /home/michal/dev/real-time-predictions-sk-2024/ commit -m "update $(date -u +'\%Y-\%m-\%dT\%H:\%M>
+
